@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="20">
+<paraver_configuration class_id="0" tracking_level="0" version="3">
+	<global class_id="1" tracking_level="0" version="9">
+		<traces_path>/home/juls</traces_path>
+		<cfgs_path>/home/juls/wxparaver-4.12.0-Linux_x86_64/cfgs</cfgs_path>
+		<tmp_path>/home/juls</tmp_path>
+		<tutorials_path>/home/juls/paraver-tutorials</tutorials_path>
+		<fill_state_gaps>1</fill_state_gaps>
+		<full_trace_path>0</full_trace_path>
+		<single_instance>1</single_instance>
+		<main_window_width>927</main_window_width>
+		<main_window_height>855</main_window_height>
+		<session_path>/home/juls/.paraver/</session_path>
+		<session_save_time>1</session_save_time>
+		<prev_session_load>1</prev_session_load>
+		<help_contents_browser>0</help_contents_browser>
+		<help_contents_question>0</help_contents_question>
+		<apps_checked>1</apps_checked>
+		<disable_timeline_zoom_mouse_wheel>0</disable_timeline_zoom_mouse_wheel>
+	</global>
+	<timeline class_id="2" tracking_level="0" version="5">
+		<default_name>New window # %N</default_name>
+		<name_format>%W @ %T</name_format>
+		<default_applied_cfg></default_applied_cfg>
+		<decimal_precision>2</decimal_precision>
+		<view_events_lines>0</view_events_lines>
+		<view_communications_lines>1</view_communications_lines>
+		<view_function_as_color>1</view_function_as_color>
+		<color>0</color>
+		<drawmode_time>1</drawmode_time>
+		<drawmode_objects>1</drawmode_objects>
+		<gradient_function>0</gradient_function>
+		<pixel_size>0</pixel_size>
+		<what_where_semantic>1</what_where_semantic>
+		<what_where_events>0</what_where_events>
+		<what_where_communications>0</what_where_communications>
+		<what_where_previous_next>0</what_where_previous_next>
+		<what_where_text>1</what_where_text>
+		<save_text_format>0</save_text_format>
+		<save_image_format>2</save_image_format>
+		<what_where_event_pixels>5</what_where_event_pixels>
+		<object_labels>1</object_labels>
+		<object_axis_size>0</object_axis_size>
+		<semantic_scale_min_at_zero>0</semantic_scale_min_at_zero>
+		<keep_In_Sync_Group_On_Clone>1</keep_In_Sync_Group_On_Clone>
+	</timeline>
+	<histogram class_id="3" tracking_level="0" version="8">
+		<view_zoom>1</view_zoom>
+		<view_gradient_colors>1</view_gradient_colors>
+		<view_horizontal>1</view_horizontal>
+		<view_empty_columns>1</view_empty_columns>
+		<cell_scientific_notation>0</cell_scientific_notation>
+		<cell_thousands_separator>1</cell_thousands_separator>
+		<cell_decimal_precision>2</cell_decimal_precision>
+		<cell_show_units>1</cell_show_units>
+		<number_of_columns>200</number_of_columns>
+		<autofit_control_scale>1</autofit_control_scale>
+		<autofit_data_gradient>1</autofit_data_gradient>
+		<autofit_third_dimension_scale>1</autofit_third_dimension_scale>
+		<gradient_function>0</gradient_function>
+		<drawmode_semantic>1</drawmode_semantic>
+		<drawmode_objects>1</drawmode_objects>
+		<save_text_as_matrix>1</save_text_as_matrix>
+		<save_text_format>0</save_text_format>
+		<save_image_format>2</save_image_format>
+		<view_first_row_colored>0</view_first_row_colored>
+		<pixel_size_histogram>0</pixel_size_histogram>
+		<skip_create_dialog>0</skip_create_dialog>
+		<show_only_totals>0</show_only_totals>
+		<column_short_labels>1</column_short_labels>
+		<autofit_control_scale_zero>0</autofit_control_scale_zero>
+		<keep_In_Sync_Group_On_Clone>1</keep_In_Sync_Group_On_Clone>
+	</histogram>
+	<filters class_id="4" tracking_level="0" version="3">
+		<filter_trace_up_to_MB>5.000000000e+02</filter_trace_up_to_MB>
+		<xml_path>/home/juls/wxparaver-4.12.0-Linux_x86_64/share/filters-config</xml_path>
+		<cutter class_id="5" tracking_level="0" version="1">
+			<by_time>0</by_time>
+			<minimum_time>0.00000000000000000e+00</minimum_time>
+			<maximum_time>0.00000000000000000e+00</maximum_time>
+			<minimum_time_percentage>0.00000000000000000e+00</minimum_time_percentage>
+			<maximum_time_percentage>1.00000000000000000e+02</maximum_time_percentage>
+			<original_time>1</original_time>
+			<break_states>1</break_states>
+			<remove_first_states>0</remove_first_states>
+			<remove_last_states>0</remove_last_states>
+			<keep_events>0</keep_events>
+		</cutter>
+		<filter class_id="6" tracking_level="0" version="0">
+			<discard_states>0</discard_states>
+			<discard_events>0</discard_events>
+			<discard_communications>0</discard_communications>
+			<comms>10000</comms>
+		</filter>
+		<software_counters class_id="7" tracking_level="0" version="0">
+			<range class_id="8" tracking_level="0" version="0">
+				<by_intervals_vs_by_states>1</by_intervals_vs_by_states>
+				<sampling_inteval>1.00000000000000000e+06</sampling_inteval>
+				<minimum_burst_time>1.00000000000000000e+03</minimum_burst_time>
+				<events></events>
+			</range>
+			<algorithm class_id="9" tracking_level="0" version="0">
+				<count_events_vs_acummulate_values>1</count_events_vs_acummulate_values>
+				<remove_states>0</remove_states>
+				<summarize_useful_states>0</summarize_useful_states>
+				<global_counters>0</global_counters>
+				<only_in_burst_counting>0</only_in_burst_counting>
+				<keep_events></keep_events>
+			</algorithm>
+		</software_counters>
+	</filters>
+	<color class_id="10" tracking_level="0" version="4">
+		<timeline_background class_id="11" tracking_level="0" version="0">
+			<red>0</red>
+			<green>0</green>
+			<blue>0</blue>
+		</timeline_background>
+		<timeline_axis>
+			<red>255</red>
+			<green>255</green>
+			<blue>255</blue>
+		</timeline_axis>
+		<timeline_use_color_zero>1</timeline_use_color_zero>
+		<timeline_semantic_zero>
+			<red>0</red>
+			<green>0</green>
+			<blue>0</blue>
+		</timeline_semantic_zero>
+		<timeline_color_punctual>
+			<red>255</red>
+			<green>128</green>
+			<blue>128</blue>
+		</timeline_color_punctual>
+		<timeline_zero_dash_line>
+			<red>127</red>
+			<green>127</green>
+			<blue>127</blue>
+		</timeline_zero_dash_line>
+		<timeline_logical_communications>
+			<red>255</red>
+			<green>255</green>
+			<blue>0</blue>
+		</timeline_logical_communications>
+		<timeline_physical_communications>
+			<red>255</red>
+			<green>0</green>
+			<blue>0</blue>
+		</timeline_physical_communications>
+		<top_gradient>
+			<red>255</red>
+			<green>146</green>
+			<blue>24</blue>
+		</top_gradient>
+		<low_gradient>
+			<red>207</red>
+			<green>207</green>
+			<blue>68</blue>
+		</low_gradient>
+		<begin_gradient>
+			<red>0</red>
+			<green>255</green>
+			<blue>0</blue>
+		</begin_gradient>
+		<end_gradient>
+			<red>0</red>
+			<green>0</green>
+			<blue>255</blue>
+		</end_gradient>
+		<begin_negative_gradient>
+			<red>160</red>
+			<green>255</green>
+			<blue>160</blue>
+		</begin_negative_gradient>
+		<end_negative_gradient>
+			<red>160</red>
+			<green>160</green>
+			<blue>255</blue>
+		</end_negative_gradient>
+	</color>
+	<applications class_id="12" tracking_level="0" version="0">
+		<text_editors class_id="13" tracking_level="0" version="0">
+			<count>2</count>
+			<item_version>0</item_version>
+			<item>xdg-open</item>
+			<item>gedit</item>
+		</text_editors>
+		<pdf_readers>
+			<count>3</count>
+			<item_version>0</item_version>
+			<item>xdg-open</item>
+			<item>evince</item>
+			<item>firefox</item>
+		</pdf_readers>
+	</applications>
+	<workspaces class_id="14" tracking_level="0" version="0">
+		<hints_discarded_submenu>0</hints_discarded_submenu>
+	</workspaces>
+</paraver_configuration>
+</boost_serialization>
+

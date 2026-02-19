@@ -1,0 +1,30 @@
+# Extrae dependences
+export EXTRAE_MPI_HOME=/usr/lib/x86_64-linux-gnu/openmpi
+export EXTRAE_MPI_LIBSDIR=/usr/lib/x86_64-linux-gnu/openmpi/lib
+export EXTRAE_PAPI_HOME=/usr
+export EXTRAE_PAPI_LIBSDIR=/usr/lib64
+export EXTRAE_LIBXML2_HOME=/usr/local
+export EXTRAE_LIBXML2_LIBSDIR=/usr/local/lib
+export EXTRAE_DYNINST_HOME=
+export EXTRAE_DYNINST_LIBSDIR=
+export EXTRAE_DWARF_HOME=
+export EXTRAE_DWARF_LIBSDIR=
+export EXTRAE_ELF_HOME=
+export EXTRAE_ELF_LIBSDIR=
+export EXTRAE_LIBERTY_HOME=/usr
+export EXTRAE_LIBERTY_LIBSDIR=/usr/lib/x86_64-linux-gnu
+export EXTRAE_BFD_HOME=/usr
+export EXTRAE_BFD_LIBSDIR=/usr/lib/x86_64-linux-gnu
+export EXTRAE_UNWIND_HOME=/usr
+export EXTRAE_UNWIND_LIBSDIR=/usr/lib64
+export EXTRAE_BOOST_HOME=
+export EXTRAE_BOOST_LIBSDIR=/lib
+export EXTRAE_CC=gcc
+export EXTRAE_CFLAGS="-g -O2 -fno-optimize-sibling-calls -Wall -W"
+export EXTRAE_CXX=g++
+export EXTRAE_CXXFLAGS="-g -O2 -fno-optimize-sibling-calls -Wall -W"
+export EXTRAE_INSTRUMENT_IO=1
+export EXTRAE_INSTRUMENT_DYNAMIC_MEMORY=1
+export PACKAGE_NAME=Extrae
+export PACKAGE_BUGREPORT=tools@bsc.es
+export CONFIGURE_LINE="  $ ./configure --prefix=/opt/extrae --with-papi=/usr --with-mpi=/usr/lib/x86_64-linux-gnu/openmpi --enable-openmp --with-unwind=/usr --enable-opencl --with-opencl=/usr"

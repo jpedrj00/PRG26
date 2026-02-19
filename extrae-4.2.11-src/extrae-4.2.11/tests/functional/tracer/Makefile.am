@@ -1,0 +1,30 @@
+SUBDIRS = \
+  OTHER
+
+if INSTRUMENT_IO
+SUBDIRS += IO
+endif
+
+if WANT_PTHREAD
+SUBDIRS += PTHREAD
+endif
+
+if HAVE_MPI
+SUBDIRS += MPI
+endif
+
+if HAVE_CUDA
+SUBDIRS += CUDA
+endif
+
+if WANT_OPENCL
+SUBDIRS += OPENCL
+endif
+
+if WANT_JAVA
+SUBDIRS += JAVA
+endif
+
+if WANT_OPENMP
+SUBDIRS += OMP
+endif
