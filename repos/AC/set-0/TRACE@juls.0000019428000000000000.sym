@@ -1,0 +1,16 @@
+S 4825203115374
+S 4825203166958
+B 0 "55e9c814f000-55e9c8164000 4000 /usr/bin/ls"
+B 0 "7bc63c8d6000-7bc63c9b4000 3f000 /usr/lib/x86_64-linux-gnu/libbfd-2.42-system.so"
+B 0 "7bc63cb2c000-7bc63cb3c000 12c000 /usr/lib/x86_64-linux-gnu/libpfm.so.4.13.0"
+B 0 "7bc63cd4a000-7bc63cdf1000 4000 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5"
+B 0 "7bc63ce28000-7bc63cfb0000 28000 /usr/lib/x86_64-linux-gnu/libc.so.6"
+B 0 "7bc63d0af000-7bc63d0d1000 3000 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5"
+B 0 "7bc63d0e0000-7bc63d14e000 2000 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2"
+B 0 "7bc63d183000-7bc63d1b6000 b000 /usr/lib/x86_64-linux-gnu/libpapi.so.7.1.0.0"
+B 0 "7bc63d221000-7bc63d26d000 21000 /opt/extrae/lib/libseqtrace-4.2.11.so"
+B 0 "7bc63d421000-7bc63d425000 2000 /usr/lib/x86_64-linux-gnu/libsframe.so.1.0.0"
+B 0 "7bc63d42c000-7bc63d43e000 2000 /usr/lib/x86_64-linux-gnu/libz.so.1.3"
+B 0 "7bc63d449000-7bc63d453000 3000 /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1"
+B 0 "7bc63d469000-7bc63d486000 6000 /usr/lib/x86_64-linux-gnu/libselinux.so.1"
+B 0 "7bc63d4ad000-7bc63d4d8000 1000 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
